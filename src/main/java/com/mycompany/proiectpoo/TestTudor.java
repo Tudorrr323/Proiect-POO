@@ -23,7 +23,7 @@ public class TestTudor {
         
         d1 = new Desktop();
         
-        d2 = new Desktop("Redragon MK-257", "Logitech G502", "Asus", 21.5);
+        d2 = new Desktop("Redragon MK-257", "Logitech G502", "Asus VS228DE", 21.5);
         d2.setNumePlacaVideo(c2.getNumePlacaVideo());
         d2.setNumeProcesor(c2.getNumeProcesor());
         d2.setNumePlacaDeBaza(c2.getNumePlacaDeBaza());
