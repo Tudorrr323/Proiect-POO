@@ -22,30 +22,15 @@ public class TestTudor {
         System.out.println(c3.toString());
         
         d1 = new Desktop();
-        
-        d2 = new Desktop("Redragon MK-257", "Logitech G502", "Asus VS228DE", 21.5);
-        d2.setNumePlacaVideo(c2.getNumePlacaVideo());
-        d2.setNumeProcesor(c2.getNumeProcesor());
-        d2.setNumePlacaDeBaza(c2.getNumePlacaDeBaza());
-        d2.setMemorieRam(c2.getMemorieRam());
-        d2.setStocare(c2.getStocare());
-        d2.setSursaAlimentare(c2.getSursaAlimentare());
-        
+        d2 = new Desktop("Redragon MK-257", "Logitech G502", "Asus VS228DE", 21.5f, c2.getNumePlacaVideo(), c2.getNumeProcesor(), c2.getNumePlacaDeBaza(), c2.getMemorieRam(),
+        c2.getStocare(), c2.getSursaAlimentare());
         d3 = new Desktop(d2);
         System.out.println(d1.toString());
         System.out.println(d2.toString());
         System.out.println(d3.toString());
         
         s1 = new Server();
-        
         s2 = new Server(8, 20, 12, true, "Liquid Cooling");
-        s2.setNumePlacaVideo(c2.getNumePlacaVideo());
-        s2.setNumeProcesor(c2.getNumeProcesor());
-        s2.setNumePlacaDeBaza(c2.getNumePlacaDeBaza());
-        s2.setMemorieRam(c2.getMemorieRam());
-        s2.setStocare(c2.getStocare());
-        s2.setSursaAlimentare(c2.getSursaAlimentare());
-        
         s3 = new Server(s2);
         System.out.println(s1.toString());
         System.out.println(s2.toString());

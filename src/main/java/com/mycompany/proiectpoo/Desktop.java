@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.proiectpoo;
+import com.mycompany.proiectpoo.Calculator;
 
 /**
  *
@@ -10,16 +11,19 @@ package com.mycompany.proiectpoo;
  */
 public class Desktop extends Calculator{
     private String numeTastatura, numeMouse, numeMonitor;
-    private double diagonalaMonitorInch;
+    private float diagonalaMonitorInch;
     
     Desktop(){
+        super();
         this.numeTastatura = "Nespecificat";
         this.numeMouse = "Nespecificat";
         this.numeMonitor = "Nespecificat";
-        this.diagonalaMonitorInch = 0;
+        this.diagonalaMonitorInch = 0.0f;
     }
     
-    Desktop(String numeTastatura, String numeMouse, String numeMonitor, double diagonalaMonitorInch){
+    Desktop(String numeTastatura, String numeMouse, String numeMonitor, float diagonalaMonitorInch, 
+            String numePlacaVideo, String numeProcesor, String numePlacaDeBaza, byte memorieRam, short stocare, short sursaAlimentare){
+        super(numePlacaVideo, numeProcesor, numePlacaDeBaza, memorieRam, stocare, sursaAlimentare);
         this.numeTastatura = numeTastatura;
         this.numeMouse = numeMouse;
         this.numeMonitor = numeMonitor;
@@ -27,6 +31,7 @@ public class Desktop extends Calculator{
     }
     
     Desktop(Desktop d){
+        super(d);
         this.numeTastatura = d.numeTastatura;
         this.numeMouse = d.numeMouse;
         this.numeMonitor = d.numeMonitor;

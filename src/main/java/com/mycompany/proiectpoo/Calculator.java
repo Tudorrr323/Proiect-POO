@@ -10,7 +10,8 @@ package com.mycompany.proiectpoo;
  */
 public class Calculator {
     private String numePlacaVideo, numeProcesor, numePlacaDeBaza;
-    private int memorieRam, stocare, sursaAlimentare;
+    private byte memorieRam;
+    private short stocare, sursaAlimentare;
     
     public void setNumePlacaVideo(String numePlacaVideo){
         this.numePlacaVideo = numePlacaVideo;
@@ -33,24 +34,24 @@ public class Calculator {
         return numePlacaDeBaza;
     }
     
-    public void setMemorieRam(int memorieRam){
+    public void setMemorieRam(byte memorieRam){
         this.memorieRam = memorieRam;
     }
-    public int getMemorieRam(){
+    public byte getMemorieRam(){
         return memorieRam;
     }
     
-    public void setStocare(int stocare){
+    public void setStocare(short stocare){
         this.stocare = stocare;
     }
-    public int getStocare(){
+    public short getStocare(){
         return stocare;
     }
     
-    public void setSursaAlimentare(int sursaAlimentare){
+    public void setSursaAlimentare(short sursaAlimentare){
         this.sursaAlimentare = sursaAlimentare;
     }
-    public int getSursaAlimentare(){
+    public short getSursaAlimentare(){
         return sursaAlimentare;
     }
     
@@ -63,7 +64,7 @@ public class Calculator {
         this.sursaAlimentare = 0;
     }
     
-    Calculator(String numePlacaVideo, String numeProcesor, String numePlacaDeBaza, int memorieRam, int stocare, int sursaAlimentare){
+    Calculator(String numePlacaVideo, String numeProcesor, String numePlacaDeBaza, byte memorieRam, short stocare, short sursaAlimentare){
         this.numePlacaVideo = numePlacaVideo;
         this.numeProcesor = numeProcesor;
         this.numePlacaDeBaza = numePlacaDeBaza;

@@ -3,17 +3,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.proiectpoo;
+import com.mycompany.proiectpoo.Calculator;
 
 /**
  *
  * @author tb173
  */
 public class Server extends Calculator{
-    private int nrProcesoare, nrPorturiUSB, nrDiscuriStocare;
+    private byte nrProcesoare, nrPorturiUSB, nrDiscuriStocare;
     private boolean reteaGigabit;
     private String sistemRacire;
     
     Server(){
+        super();
         this.nrProcesoare = 0;
         this.nrPorturiUSB = 0;
         this.nrDiscuriStocare = 0;
@@ -21,7 +23,9 @@ public class Server extends Calculator{
         this.sistemRacire = "Nespecificat";
     }
     
-    Server(int nrProcesoare, int nrPorturiUSB, int nrDiscuriStocare, boolean reteaGigabit, String sistemRacire){
+    Server(byte nrProcesoare, byte nrPorturiUSB, byte nrDiscuriStocare, boolean reteaGigabit, String sistemRacire,
+            String numePlacaVideo, String numeProcesor, String numePlacaDeBaza, byte memorieRam, short stocare, short sursaAlimentare){
+        super(numePlacaVideo, numeProcesor, numePlacaDeBaza, memorieRam, stocare, sursaAlimentare);
         this.nrProcesoare = nrProcesoare;
         this.nrPorturiUSB = nrPorturiUSB;
         this.nrDiscuriStocare = nrDiscuriStocare;
@@ -30,6 +34,7 @@ public class Server extends Calculator{
     }
     
     Server(Server s){
+        super(s);
         this.nrProcesoare = s.nrProcesoare;
         this.nrPorturiUSB = s.nrPorturiUSB;
         this.nrDiscuriStocare = s.nrDiscuriStocare;
