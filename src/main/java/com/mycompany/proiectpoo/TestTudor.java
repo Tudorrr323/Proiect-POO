@@ -15,14 +15,15 @@ public class TestTudor {
         Server s1, s2, s3;
         
         c1 = new Calculator();
-        c2 = new Calculator("RTX 3050", "I5-10600K", "Asrock B456-M", 16, 2000, 650);
+        c2 = new Calculator("RTX 3050", "I5-10600K", "Asrock B456-M", (byte) 16, (short) 2000, (short) 650);
         c3 = new Calculator(c2);
         System.out.println(c1.toString());
         System.out.println(c2.toString());
         System.out.println(c3.toString());
         
         d1 = new Desktop();
-        d2 = new Desktop("Redragon MK-257", "Logitech G502", "Asus VS228DE", 21.5f, c2.getNumePlacaVideo(), c2.getNumeProcesor(), c2.getNumePlacaDeBaza(), c2.getMemorieRam(),
+        d2 = new Desktop("Redragon MK-257", "Logitech G502", "Asus VS228DE", 21.5f, 
+                c2.getNumePlacaVideo(), c2.getNumeProcesor(), c2.getNumePlacaDeBaza(), c2.getMemorieRam(),
         c2.getStocare(), c2.getSursaAlimentare());
         d3 = new Desktop(d2);
         System.out.println(d1.toString());
@@ -30,7 +31,8 @@ public class TestTudor {
         System.out.println(d3.toString());
         
         s1 = new Server();
-        s2 = new Server(8, 20, 12, true, "Liquid Cooling");
+        s2 = new Server((byte) 8, (byte) 20, (byte) 12, true, "Liquid Cooling", c2.getNumePlacaVideo(), c2.getNumeProcesor(), 
+                c2.getNumePlacaDeBaza(), c2.getMemorieRam(), c2.getStocare(), c2.getSursaAlimentare());
         s3 = new Server(s2);
         System.out.println(s1.toString());
         System.out.println(s2.toString());
