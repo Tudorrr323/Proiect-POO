@@ -2,7 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.proiectpoo;
+package com.mycompany.proiectpoo; 
+import com.mycompany.proiectpoo.Calculator;
 
 /**
  *
@@ -10,19 +11,22 @@ package com.mycompany.proiectpoo;
  */
 public class Laptop extends Calculator{
     private String numeMouse;
-    private double diagonalaMonitor, greutate;
+    private float diagonalaMonitor, greutate;
     private boolean esteIluminata;
-    private int autonomieBaterie;
+    private byte autonomieBaterie;
     
     Laptop(){
+        super();
         this.numeMouse = "Nespecificat";
-        this.diagonalaMonitor = 0.0;
-        this.greutate = 0.0;
+        this.diagonalaMonitor = 0.0f;
+        this.greutate = 0.0f;
         this.esteIluminata = false;
         this.autonomieBaterie = 0;
     }
     
-    Laptop(String numeMouse, double diagonalaMonitor, double greutate, boolean esteIluminate, int autonomieBaterie){
+    Laptop(String numeMouse, float diagonalaMonitor, float greutate, boolean esteIluminate, byte autonomieBaterie,
+            String numePlacaVideo, String numeProcesor, String numePlacaDeBaza, byte memorieRam, short stocare, short sursaAlimentare){
+        super(numePlacaVideo, numeProcesor, numePlacaDeBaza, memorieRam, stocare, sursaAlimentare);
         this.numeMouse = numeMouse;
         this.diagonalaMonitor = diagonalaMonitor;
         this.greutate = greutate;
@@ -31,6 +35,7 @@ public class Laptop extends Calculator{
     }
     
     Laptop(Laptop l){
+        super(l);
         this.numeMouse = l.numeMouse;
         this.diagonalaMonitor = l.diagonalaMonitor;
         this.greutate = l.greutate;

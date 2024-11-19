@@ -26,15 +26,8 @@ public class TestValentina {
         System.out.println(c3.toString());
         
         l1 = new Laptop();
-        
-        l2 = new Laptop("Logitech", 15.6, 2.3, true, 6);
-        l2.setNumePlacaVideo(c2.getNumePlacaVideo());
-        l2.setNumeProcesor(c2.getNumeProcesor());
-        l2.setNumePlacaDeBaza(c2.getNumePlacaDeBaza());
-        l2.setMemorieRam(c2.getMemorieRam());
-        l2.setStocare(c2.getStocare());
-        l2.setSursaAlimentare(c2.getSursaAlimentare());
-        
+        l2 = new Laptop("Logitech", 15.6f, 2.3f, true, 6, c2.getNumePlacaVideo(), c2.getNumeProcesor(), c2.getNumePlacaDeBaza(), c2.getMemorieRam(), 
+        c2.getStocare(), c2.getSursaAlimentare());
         l3 = new Laptop(l2);
         System.out.println(l1.toString());
         System.out.println(l2.toString());
