@@ -8,7 +8,7 @@ package com.mycompany.proiectpoo;
  *
  * @author tb173
  */
-public class Calculator {
+public class Calculator extends ClasaAbstractaTudor{
     private String numePlacaVideo, numeProcesor, numePlacaDeBaza;
     private byte memorieRam;
     private short stocare, sursaAlimentare;
@@ -82,12 +82,20 @@ public class Calculator {
         this.sursaAlimentare = c.sursaAlimentare;
     }
     
+    public void afisarePornire(){
+        System.out.println("Calculatorul a pornit!");
+    }
+    
+    public void afisareInchidere(){
+        System.out.println("Calculatorul s-a inchis!");
+    }
+    
     public String toString(){
         return "Placa de baza: " + numePlacaDeBaza + 
                 "\nProcesor: " + numeProcesor +
                 "\nPlaca video: " + numePlacaVideo +
                 "\nMemorie Ram: " + memorieRam + "GB" +
                 "\nStocare: " + stocare + "GB" +
-                "\nSursa de Alimentare: " + sursaAlimentare + "W\n";
+                "\nSursa de Alimentare: " + sursaAlimentare + "W";
     }
 }

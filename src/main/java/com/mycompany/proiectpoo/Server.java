@@ -42,11 +42,19 @@ public class Server extends Calculator{
         this.sistemRacire = s.sistemRacire;
     }
     
+    public void afisarePornire(){
+        System.out.println("Serverul a pornit!");
+    }
+    
+    public void afisareInchidere(){
+        System.out.println("Serverul s-a inchis!");
+    }
+    
     public String toString(){
-        return super.toString() + "Numar Procesoare: " + nrProcesoare +
+        return super.toString() + "\nNumar Procesoare: " + nrProcesoare +
                 "\nNumar Porturi USB: " + nrPorturiUSB +
                 "\nNumar Discuri de Stocare: " + nrDiscuriStocare +
                 "\nRetea Gigabit: " + reteaGigabit + 
-                "\nSistem de Racire: " + sistemRacire + "\n";
+                "\nSistem de Racire: " + sistemRacire;
     }
 }

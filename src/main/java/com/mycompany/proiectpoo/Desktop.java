@@ -38,10 +38,18 @@ public class Desktop extends Calculator{
         this.diagonalaMonitorInch = d.diagonalaMonitorInch;
     }
     
+    public void afisarePornire(){
+        System.out.println("Calculatorul a pornit!");
+    }
+    
+    public void afisareInchidere(){
+        System.out.println("Calculatorul s-a inchis!");
+    }
+    
     public String toString(){
-        return super.toString() + "Nume Tastatura: " + numeTastatura +
+        return super.toString() + "\nNume Tastatura: " + numeTastatura +
                 "\nNume Mouse: " + numeMouse + 
                 "\nNume Monitor: " + numeMonitor +
-                "\nDiagonala Monitor Inch: " + diagonalaMonitorInch + " inch\n";
+                "\nDiagonala Monitor Inch: " + diagonalaMonitorInch + " inch";
     }
 }
