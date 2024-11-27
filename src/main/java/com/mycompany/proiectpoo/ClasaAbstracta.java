@@ -6,9 +6,9 @@ package com.mycompany.proiectpoo;
 
 /**
  *
- * @author va195
+ * @author tb173
  */
-abstract class ClasaAbstractaValentina {
+abstract class ClasaAbstracta{
     public abstract void afisarePornire();
     public abstract void afisareInchidere();
 }

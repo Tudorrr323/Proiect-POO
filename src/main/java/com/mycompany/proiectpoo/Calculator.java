@@ -8,7 +8,7 @@ package com.mycompany.proiectpoo;
  *
  * @author tb173
  */
-public class Calculator extends ClasaAbstractaTudor{
+public class Calculator extends ClasaAbstracta{
     private String numePlacaVideo, numeProcesor, numePlacaDeBaza;
     private byte memorieRam;
     private short stocare, sursaAlimentare;
