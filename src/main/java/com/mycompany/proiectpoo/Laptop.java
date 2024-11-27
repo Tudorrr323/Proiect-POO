@@ -15,6 +15,49 @@ public class Laptop extends Calculator{
     private boolean esteIluminata;
     private byte autonomieBaterie;
     
+    public void setNumeMouse(String numeMouse){
+        this.numeMouse = numeMouse;
+    }
+    public String getNumeMouse(){
+        return numeMouse;
+    }
+    
+    public void setDiagonalaMonitor(float diagonalaMonitor){
+        this.diagonalaMonitor = diagonalaMonitor;
+    }
+    public float getDiagonalaMonitor(){
+        return diagonalaMonitor;
+    }
+    
+    public void setGreutate(float greutate){
+        this.greutate = greutate;
+    }
+    public float getGreutate(){
+        return greutate;
+    }
+    
+    public void setEsteIluminata(boolean esteIluminata){
+        this.esteIluminata = esteIluminata;
+    }
+    public boolean getEsteIluminata(){
+        return esteIluminata;
+    }
+    
+    public void setAutonomieBaterie(byte autonomieBaterie){
+        this.autonomieBaterie = autonomieBaterie;
+    }
+    public byte getAutonomieBaterie(){
+        return autonomieBaterie;
+    }
+    
+    public void afisarePornire(){
+        System.out.println("Laptopul a porint!");
+    }
+    
+    public void afisareInchidere(){
+        System.out.println("Laptopul s-a inchis!");
+    }
+    
     Laptop(){
         super();
         this.numeMouse = "Nespecificat";
@@ -44,10 +87,10 @@ public class Laptop extends Calculator{
     }
     
     public String toString(){
-        return super.toString() + "Nume Mouse: " + numeMouse +
+        return super.toString() + "\nNume Mouse: " + numeMouse +
                 "\nDiagonala Monitor: " + diagonalaMonitor +
                 "\nGreutate: " + greutate +
                 "\nTastatura este iluminata: " + esteIluminata +
-                "\nAutonomia Bateriei: " + autonomieBaterie + "\n";
+                "\nAutonomia Bateriei: " + autonomieBaterie;
     }
 }

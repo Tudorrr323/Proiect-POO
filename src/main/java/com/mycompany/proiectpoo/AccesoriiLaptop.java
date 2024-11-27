@@ -38,10 +38,18 @@ public class AccesoriiLaptop extends Laptop{
         this.areProtectieEcran = aL.areProtectieEcran;
     }
     
+    public void afisarePornire(){
+        System.out.println("Laptopul a porint!");
+    }
+    
+    public void afisareInchidere(){
+        System.out.println("Laptopul s-a inchis!");
+    }
+    
     public String toString(){
-        return super.toString() + "Are Geanta: " + areGeanta +
+        return super.toString() + "\nAre Geanta: " + areGeanta +
                 "\nAre Cooling Pad: " + areCoolingPad +
                 "\nAre Casti: " + areCasti +
-                "\nAre Protectie Ecran: " + areProtectieEcran + "\n";
+                "\nAre Protectie Ecran: " + areProtectieEcran;
     }
 }
