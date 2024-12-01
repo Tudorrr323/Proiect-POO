@@ -13,6 +13,34 @@ public class Desktop extends Calculator{
     private String numeTastatura, numeMouse, numeMonitor;
     private float diagonalaMonitorInch;
     
+    public void setNumeTastatura(String numeTastatura){
+        this.numeTastatura = numeTastatura;
+    }
+    public String getNumeTastatura(){
+        return numeTastatura;
+    }
+    
+    public void setNumeMouse(String numeMouse){
+        this.numeMouse = numeMouse;
+    }
+    public String getNumeMouse(){
+        return numeMouse;
+    }
+    
+    public void setNumeMonitor(String numeMonitor){
+        this.numeMonitor = numeMonitor;
+    }
+    public String getNumeMonitor(){
+        return numeMonitor;
+    }
+    
+    public void setDiagonalaMonitorInch(float diagonalaMonitorInch){
+        this.diagonalaMonitorInch = diagonalaMonitorInch;
+    }
+    public float getDiagonalaMonitorInch(){
+        return diagonalaMonitorInch;
+    }
+    
     Desktop(){
         super();
         this.numeTastatura = "Nespecificat";

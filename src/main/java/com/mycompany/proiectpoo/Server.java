@@ -14,6 +14,41 @@ public class Server extends Calculator{
     private boolean reteaGigabit;
     private String sistemRacire;
     
+    public void setSistemRacire(String sistemRacire){
+        this.sistemRacire = sistemRacire;
+    }
+    public String getSistemRacire(){
+        return sistemRacire;
+    }
+    
+    public void setReteaGigabit(boolean reteaGigabit){
+        this.reteaGigabit = reteaGigabit;
+    }
+    public boolean getReteaGigabit(){
+        return reteaGigabit;
+    }
+    
+    public void setNrProcesoare(byte nrProcesoare){
+        this.nrProcesoare = nrProcesoare;
+    }
+    public byte getNrProcesoare(){
+        return nrProcesoare;
+    }
+    
+    public void setNrPorturiUSB(byte nrPorturiUSB){
+        this.nrPorturiUSB = nrPorturiUSB;
+    }
+    public byte getNrPorturiUSB(){
+        return nrPorturiUSB;
+    }
+    
+    public void setnrDiscuriStocare(byte nrDiscuriStocare){
+        this.nrDiscuriStocare = nrDiscuriStocare;
+    }
+    public byte getNrDiscuriStocare(){
+        return nrDiscuriStocare;
+    }
+    
     Server(){
         super();
         this.nrProcesoare = 0;
