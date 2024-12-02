@@ -11,6 +11,34 @@ import com.mycompany.proiectpoo.Laptop;
 public class AccesoriiLaptop extends Laptop{
     private boolean areGeanta, areCoolingPad, areCasti, areProtectieEcran;
     
+    public void setAreGeanta(boolean areGeanta){
+        this.areGeanta = areGeanta;
+    }
+    public boolean getAreGeanta(){
+        return areGeanta;
+    }
+    
+    public void setAreCoolingPad(boolean areCoolingPad){
+        this.areCoolingPad = areCoolingPad;
+    }
+    public boolean getAreCoolingPad(){
+        return areCoolingPad;
+    }
+    
+    public void setAreCasti(boolean areCasti){
+        this.areCasti = areCasti;
+    }
+    public boolean getAreCasti(){
+        return areCasti;
+    }
+    
+    public void setAreProtectieEcran(boolean areProtectieEcran){
+        this.areProtectieEcran = areProtectieEcran;
+    }
+    public boolean getAreProtectieEcran(){
+        return areProtectieEcran;
+    }
+    
     AccesoriiLaptop(){
         super();
         this.areGeanta = false;

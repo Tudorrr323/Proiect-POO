@@ -222,6 +222,36 @@ public class TestValentina {
             System.out.println();
         }
         
+        System.out.println("Vectorul de Calculatoare cu 2 conditii\n");
+        for(int i = 0; i < vectorCalculatoare.length; i++){
+            if(vectorCalculatoare[i].getNumeProcesor().startsWith("Intel Core") && vectorCalculatoare[i].getStocare() == 512){
+                System.out.println("Calculatorul " + (i + 1));
+                System.out.println(vectorCalculatoare[i].toString());
+                System.out.println();
+            }
+        }
         
+        System.out.println("Vectorul de Laptopuri cu 2 conditii\n");
+        for(int i = 0; i < vectorLaptop.length; i++){
+            if(vectorLaptop[i].getNumeMouse().startsWith("Logitech") || vectorLaptop[i].getNumePlacaDeBaza().contains("ASUS")){
+                System.out.println("Laptopul " + (i + 1));
+                System.out.println(vectorLaptop[i].toString());
+                System.out.println();
+            }
+        }
+        
+        System.out.println("Vectorul de Accesorii Laptop cu 2 conditii\n");
+        for(int i = 0; i < vectorAccesoriiLaptop.length; i++){
+            if(!vectorAccesoriiLaptop[i].getAreGeanta() && vectorAccesoriiLaptop[i].getAutonomieBaterie() >= 5){
+                System.out.println("Laptopul " + (i + 1));
+                System.out.println(vectorAccesoriiLaptop[i].toString());
+                System.out.println();
+            }
+        }
+        /*
+        sir.startsWith("text") - verifica daca textul incepe cu textul din paranteze
+        sir.contains("text") - verifica daca sirul contine "text" oriunde in sir(ori la inceput/mijloc/final)
+        sir.compareTo("text") == 0 - verifica daca textul din sir este fix "text"(0 adevarat, 1 fals)
+        */
     }
 }
