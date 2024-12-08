@@ -7,7 +7,7 @@
       <Color id="Default Cursor"/>
     </Property>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[1000, 900]"/>
+      <Dimension value="[950, 900]"/>
     </Property>
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
@@ -33,91 +33,85 @@
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Component id="afisareVectorCalculatoare" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Component id="textDesktop" min="-2" pref="300" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="textServer" min="-2" pref="300" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="label5" alignment="1" max="32767" attributes="0"/>
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Component id="afisareVectorCalculatoare" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                      <Component id="textDesktop" min="-2" pref="300" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="textServer" min="-2" pref="300" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="textPlacaDeBaza" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Component id="textStocare" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="label1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="label4" alignment="1" pref="220" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+                                      <Component id="textMouse" min="-2" pref="100" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                                              <Component id="label1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="label5" alignment="0" max="-2" attributes="0"/>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="textPlacaDeBaza" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
-                                                  <Component id="textStocare" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Component id="afisareVectorDesktop" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="label6" alignment="1" max="32767" attributes="0"/>
+                                                      <Component id="label2" alignment="1" pref="194" max="32767" attributes="0"/>
+                                                  </Group>
                                               </Group>
+                                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                                           </Group>
-                                      </Group>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
-                                              <Component id="textMouse" min="-2" pref="100" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="textAlimentare" min="-2" pref="100" max="-2" attributes="0"/>
                                               <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="1" attributes="0">
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Component id="label2" min="-2" pref="194" max="-2" attributes="0"/>
-                                                          <Component id="label6" min="-2" max="-2" attributes="0"/>
-                                                          <Component id="afisareVectorDesktop" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Component id="textAlimentare" min="-2" pref="100" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Component id="label10" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
+                                              <Component id="label10" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                                  <Component id="label8" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Component id="textNrProcesoare" min="-2" pref="100" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Group type="102" alignment="1" attributes="0">
-                                                      <Component id="textNrPorturi" min="-2" pref="100" max="-2" attributes="0"/>
-                                                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Component id="label9" alignment="1" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="label3" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                                              </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="afisareVectorServer" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="textNrProcesoare" min="-2" pref="100" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="1" attributes="0">
-                                              <Component id="afisareVectorServer" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                              <Component id="textNrPorturi" min="-2" pref="100" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                                           </Group>
+                                          <Component id="label9" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="label8" alignment="1" pref="220" max="32767" attributes="0"/>
+                                          <Component id="label3" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
-                          <Component id="label4" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -270,7 +264,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Times New Roman" size="14" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Scrie noul nume pentru Placa de Baza:"/>
+        <Property name="text" type="java.lang.String" value="Cauta dupa Placa de Baza:"/>
       </Properties>
     </Component>
     <Component class="java.awt.Label" name="label5">
@@ -282,10 +276,7 @@
         <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[220, 21]"/>
         </Property>
-        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[220, 21]"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Scrie noua valoare pentru stocare:"/>
+        <Property name="text" type="java.lang.String" value="Cauta dupa Stocare:"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textStocare">
@@ -302,7 +293,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Times New Roman" size="14" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Scrie noua valoare pentru Nr. Porturi USB:"/>
+        <Property name="text" type="java.lang.String" value="Cauta dupa Nr. Porturi USB:"/>
       </Properties>
     </Component>
     <Component class="java.awt.Label" name="label9">
@@ -314,7 +305,7 @@
         <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[220, 21]"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Scrie noua valoare pentru Nr. Procesoare:"/>
+        <Property name="text" type="java.lang.String" value="Cauta dupa Nr. Procesoare:"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textNrProcesoare">
@@ -347,7 +338,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Times New Roman" size="14" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Scrie noul nume pentru Mouse:"/>
+        <Property name="text" type="java.lang.String" value="Cauta dupa Mouse:"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textMouse">
@@ -358,7 +349,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Times New Roman" size="14" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Scrie nou valoare pentru Alimentare:"/>
+        <Property name="text" type="java.lang.String" value="Cauta dupa Alimentare:"/>
       </Properties>
     </Component>
     <Component class="java.awt.TextField" name="textAlimentare">

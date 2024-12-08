@@ -91,7 +91,7 @@ public class Calculator extends ClasaAbstracta{
     }
     
     public String toString(){
-        return "\nPlaca de baza: " + numePlacaDeBaza + 
+        return "Placa de baza: " + numePlacaDeBaza + 
                 "\nProcesor: " + numeProcesor +
                 "\nPlaca video: " + numePlacaVideo +
                 "\nMemorie Ram: " + memorieRam + "GB" +

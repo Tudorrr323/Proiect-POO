@@ -54,7 +54,7 @@ public class TudorUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        setPreferredSize(new java.awt.Dimension(1000, 900));
+        setPreferredSize(new java.awt.Dimension(950, 900));
         setResizable(false);
 
         afisareVectorCalculatoare.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
@@ -94,25 +94,24 @@ public class TudorUI extends javax.swing.JFrame {
 
         label4.setAlignment(java.awt.Label.CENTER);
         label4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        label4.setText("Scrie noul nume pentru Placa de Baza:");
+        label4.setText("Cauta dupa Placa de Baza:");
 
         label5.setAlignment(java.awt.Label.CENTER);
         label5.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         label5.setMinimumSize(new java.awt.Dimension(220, 21));
-        label5.setPreferredSize(new java.awt.Dimension(220, 21));
-        label5.setText("Scrie noua valoare pentru stocare:");
+        label5.setText("Cauta dupa Stocare:");
 
         textStocare.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         textStocare.setName(""); // NOI18N
 
         label8.setAlignment(java.awt.Label.CENTER);
         label8.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        label8.setText("Scrie noua valoare pentru Nr. Porturi USB:");
+        label8.setText("Cauta dupa Nr. Porturi USB:");
 
         label9.setAlignment(java.awt.Label.CENTER);
         label9.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         label9.setMinimumSize(new java.awt.Dimension(220, 21));
-        label9.setText("Scrie noua valoare pentru Nr. Procesoare:");
+        label9.setText("Cauta dupa Nr. Procesoare:");
 
         textNrProcesoare.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         textNrProcesoare.setName(""); // NOI18N
@@ -125,11 +124,11 @@ public class TudorUI extends javax.swing.JFrame {
 
         label2.setAlignment(java.awt.Label.CENTER);
         label2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        label2.setText("Scrie noul nume pentru Mouse:");
+        label2.setText("Cauta dupa Mouse:");
 
         label6.setAlignment(java.awt.Label.CENTER);
         label6.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        label6.setText("Scrie nou valoare pentru Alimentare:");
+        label6.setText("Cauta dupa Alimentare:");
 
         afisareVectorDesktop.setText("Afiseaza vectorul de Desktop-uri");
         afisareVectorDesktop.addActionListener(new java.awt.event.ActionListener() {
@@ -145,68 +144,64 @@ public class TudorUI extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(51, 51, 51)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(62, 62, 62)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(11, 11, 11)
+                                .addComponent(afisareVectorCalculatoare)
+                                .addGap(41, 41, 41)
+                                .addComponent(textDesktop, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(textServer, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(label5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addGroup(layout.createSequentialGroup()
-                                        .addComponent(afisareVectorCalculatoare)
-                                        .addGap(41, 41, 41)
-                                        .addComponent(textDesktop, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(59, 59, 59)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(textPlacaDeBaza, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(textStocare, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(20, 20, 20)
+                                        .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(label4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(142, 142, 142)
+                                        .addComponent(textMouse, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(57, 57, 57))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(textServer, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(20, 20, 20)
-                                                .addComponent(label1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                            .addComponent(label5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(59, 59, 59)
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(textPlacaDeBaza, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(textStocare, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addGap(142, 142, 142)
-                                                .addComponent(textMouse, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                    .addComponent(afisareVectorDesktop)
+                                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                        .addComponent(label6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                        .addComponent(label2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 194, Short.MAX_VALUE)))
+                                                .addGap(15, 15, 15))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                .addComponent(textAlimentare, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addGap(57, 57, 57))
                                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                            .addComponent(label2, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(label6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(afisareVectorDesktop))
-                                                        .addGap(15, 15, 15))
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addComponent(textAlimentare, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGap(57, 57, 57))
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addComponent(label10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGap(26, 26, 26)))))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(label8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addComponent(textNrProcesoare, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGap(64, 64, 64))
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                        .addComponent(textNrPorturi, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGap(62, 62, 62))
-                                                    .addComponent(label9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                    .addComponent(label3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addGap(50, 50, 50)))
+                                                .addComponent(label10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(26, 26, 26)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addComponent(afisareVectorServer)
+                                        .addGap(52, 52, 52))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                                .addComponent(afisareVectorServer)
-                                                .addGap(15, 15, 15)))
-                                        .addGap(37, 37, 37))))
-                            .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                                .addComponent(textNrProcesoare, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(64, 64, 64))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                                .addComponent(textNrPorturi, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(62, 62, 62))
+                                            .addComponent(label9, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(label8, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE)
+                                            .addComponent(label3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addGap(37, 37, 37))))))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(textCalculatoare, javax.swing.GroupLayout.PREFERRED_SIZE, 300, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -277,6 +272,8 @@ public class TudorUI extends javax.swing.JFrame {
             for(Calculator c : vectorCalculatoare){
                 if(c.getNumePlacaDeBaza().contains(textPlacaDeBaza.getText()) && c.getStocare() == Short.parseShort(textStocare.getText())){
                     textCalculatoare.append(c.toString());
+                    textCalculatoare.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textCalculatoare.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
@@ -284,6 +281,8 @@ public class TudorUI extends javax.swing.JFrame {
             for(Calculator c : vectorCalculatoare){
                 if(c.getNumePlacaDeBaza().contains(textPlacaDeBaza.getText())){
                     textCalculatoare.append(c.toString());
+                    textCalculatoare.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textCalculatoare.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
@@ -291,12 +290,16 @@ public class TudorUI extends javax.swing.JFrame {
             for(Calculator c : vectorCalculatoare){
                 if(c.getStocare() == Short.parseShort(textStocare.getText())){
                     textCalculatoare.append(c.toString());
+                    textCalculatoare.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textCalculatoare.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
         if(textPlacaDeBaza.getText().equals("") && textStocare.getText().equals("")){
             for(Calculator c : vectorCalculatoare){
                 textCalculatoare.append(c.toString());
+                textCalculatoare.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                textCalculatoare.append("\n"); // Salt de linie, indiferent de platforma
             }
         }
         
@@ -309,6 +312,8 @@ public class TudorUI extends javax.swing.JFrame {
             for(Server s : vectorServer){
                 if(Byte.parseByte(textNrPorturi.getText()) == s.getNrPorturiUSB() && Byte.parseByte(textNrProcesoare.getText()) == s.getNrProcesoare()){
                     textServer.append(s.toString());
+                    textServer.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textServer.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
@@ -316,6 +321,8 @@ public class TudorUI extends javax.swing.JFrame {
             for(Server s : vectorServer){
                 if(Byte.parseByte(textNrPorturi.getText()) == s.getNrPorturiUSB()){
                     textServer.append(s.toString());
+                    textServer.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textServer.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
@@ -323,12 +330,16 @@ public class TudorUI extends javax.swing.JFrame {
             for(Server s : vectorServer){
                 if(Byte.parseByte(textNrProcesoare.getText()) == s.getNrProcesoare()){
                     textServer.append(s.toString());
+                    textServer.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textServer.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
         if(textNrPorturi.getText().equals("") && textNrProcesoare.getText().equals("")){
             for(Server s : vectorServer){
                 textServer.append(s.toString());
+                textServer.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                textServer.append("\n"); // Salt de linie, indiferent de platforma
             }
         }
     }//GEN-LAST:event_afisareVectorServerActionPerformed
@@ -340,6 +351,8 @@ public class TudorUI extends javax.swing.JFrame {
             for(Desktop d : vectorDesktop){
                 if(d.getNumeMouse().contains(textMouse.getText()) && d.getSursaAlimentare() == Short.parseShort(textAlimentare.getText())){
                     textDesktop.append(d.toString());
+                    textDesktop.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textDesktop.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
@@ -347,6 +360,8 @@ public class TudorUI extends javax.swing.JFrame {
             for(Desktop d : vectorDesktop){
                 if(d.getNumeMouse().contains(textMouse.getText())){
                     textDesktop.append(d.toString());
+                    textDesktop.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textDesktop.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
@@ -354,16 +369,19 @@ public class TudorUI extends javax.swing.JFrame {
             for(Desktop d : vectorDesktop){
                 if(d.getSursaAlimentare() == Short.parseShort(textAlimentare.getText())){
                     textDesktop.append(d.toString());
+                    textDesktop.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                    textDesktop.append("\n"); // Salt de linie, indiferent de platforma
                 }
             }
         }
         if(textMouse.getText().equals("") && textAlimentare.getText().equals("")){
             for(Desktop d : vectorDesktop){
                 textDesktop.append(d.toString());
+                textDesktop.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
+                textDesktop.append("\n"); // Salt de linie, indiferent de platforma
             }
         }
     }//GEN-LAST:event_afisareVectorDesktopActionPerformed
-    
     
     /**
      * @param args the command line arguments
