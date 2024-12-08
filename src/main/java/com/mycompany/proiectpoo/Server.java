@@ -90,6 +90,6 @@ public class Server extends Calculator{
                 "\nNumar Porturi USB: " + nrPorturiUSB +
                 "\nNumar Discuri de Stocare: " + nrDiscuriStocare +
                 "\nRetea Gigabit: " + reteaGigabit + 
-                "\nSistem de Racire: " + sistemRacire;
+                "\nSistem de Racire: " + sistemRacire + "\n";
     }
 }

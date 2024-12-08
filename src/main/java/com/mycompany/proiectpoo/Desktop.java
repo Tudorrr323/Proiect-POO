@@ -78,6 +78,6 @@ public class Desktop extends Calculator{
         return super.toString() + "\nNume Tastatura: " + numeTastatura +
                 "\nNume Mouse: " + numeMouse + 
                 "\nNume Monitor: " + numeMonitor +
-                "\nDiagonala Monitor Inch: " + diagonalaMonitorInch + " inch";
+                "\nDiagonala Monitor Inch: " + diagonalaMonitorInch + " inch\n";
     }
 }
