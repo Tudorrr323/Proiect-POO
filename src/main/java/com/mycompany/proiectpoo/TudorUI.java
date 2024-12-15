@@ -4,6 +4,8 @@
  */
 package com.mycompany.proiectpoo;
 
+import java.awt.Color;
+
 /**
  *
  * @author tb173
@@ -65,6 +67,7 @@ public class TudorUI extends javax.swing.JFrame {
             }
         });
 
+        textCalculatoare.setBackground(new java.awt.Color(255, 255, 255));
         textCalculatoare.setEditable(false);
 
         label1.setAlignment(java.awt.Label.CENTER);
@@ -298,6 +301,7 @@ public class TudorUI extends javax.swing.JFrame {
         if(textPlacaDeBaza.getText().equals("") && textStocare.getText().equals("")){
             for(Calculator c : vectorCalculatoare){
                 textCalculatoare.append(c.toString());
+                textCalculatoare.setForeground(Color.red);
                 textCalculatoare.append(System.getProperty("line.separator")); // Pentru a asigura portabilitatea codului pentru orice sistem de operare
                 textCalculatoare.append("\n"); // Salt de linie, indiferent de platforma
             }

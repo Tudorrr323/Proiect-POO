@@ -1,0 +1,32 @@
+NVIDIA RTX 3090, Intel i9, ASUS ROG STRIX, 32, 2000, 850
+AMD Radeon RX 6700, AMD Ryzen 7, MSI MPG, 16, 1000, 750
+NVIDIA GTX 1660, Intel i5, Gigabyte Aorus, 8, 512, 500
+AMD Radeon RX 7900, AMD Ryzen 9, ASRock Phantom, 64, 4000, 1000
+NVIDIA RTX 3070, Intel i7, MSI B450, 16, 1500, 650
+NVIDIA GTX 1080, Intel i3, ASUS Prime, 4, 256, 450
+AMD Radeon RX 6800, AMD Ryzen 5, Gigabyte Ultra Durable, 12, 750, 600
+NVIDIA RTX 4060, Intel i9, ASUS TUF Gaming, 32, 2000, 800
+NVIDIA GTX 1050, Intel Pentium, MSI Pro, 4, 128, 400
+AMD Radeon RX 7600, AMD Ryzen 7, ASUS Crosshair, 16, 1200, 700
+
+Logitech G213, Logitech G502, Samsung Odyssey G7, 27.0, NVIDIA RTX 3090, Intel i9, ASUS ROG STRIX, 32, 2000, 850
+Corsair K95, Razer DeathAdder, LG UltraFine, 32.0, AMD Radeon RX 6700, AMD Ryzen 7, MSI MPG, 16, 1000, 750
+Razer BlackWidow, SteelSeries Rival 3, Acer Predator, 24.5, NVIDIA GTX 1660, Intel i5, Gigabyte Aorus, 8, 512, 500
+HyperX Alloy FPS, Logitech MX Master 3, Dell UltraSharp, 34.0, AMD Radeon RX 7900, AMD Ryzen 9, ASRock Phantom, 64, 4000, 1000
+Microsoft Sculpt, Microsoft Bluetooth Mouse, HP Z24n G2, 23.8, NVIDIA RTX 3070, Intel i7, MSI B450, 16, 1500, 650
+Corsair K55, Corsair M65 RGB Elite, Asus ProArt, 27.0, NVIDIA GTX 1080, Intel i3, ASUS Prime, 4, 256, 450
+Logitech K380, Logitech M720 Triathlon, BenQ EX3501R, 35.0, AMD Radeon RX 6800, AMD Ryzen 5, Gigabyte Ultra Durable, 12, 750, 600
+Razer Ornata V2, Razer Basilisk V3, ViewSonic VP3881, 38.0, NVIDIA RTX 4060, Intel i9, ASUS TUF Gaming, 32, 2000, 800
+Redragon K552, Redragon M908, MSI Optix MAG272CQR, 27.0, NVIDIA GTX 1050, Intel Pentium, MSI Pro, 4, 128, 400
+SteelSeries Apex 5, SteelSeries Sensei Ten, Samsung Smart Monitor M8, 32.0, AMD Radeon RX 7600, AMD Ryzen 7, ASUS Crosshair, 16, 1200, 700
+
+4, 8, 10, true, Water Cooling, NVIDIA RTX 3090, Intel i9, ASUS ROG STRIX, 32, 2000, 850
+8, 4, 12, false, Air Cooling, AMD Radeon RX 6700, AMD Ryzen 7, MSI MPG, 16, 1000, 750
+16, 16, 24, true, Hybrid Cooling, NVIDIA GTX 1660, Intel i5, Gigabyte Aorus, 8, 512, 500
+2, 6, 8, false, Passive Cooling, AMD Radeon RX 7900, AMD Ryzen 9, ASRock Phantom, 64, 4000, 1000
+10, 12, 18, true, Water Cooling, NVIDIA RTX 3070, Intel i7, MSI B450, 16, 1500, 650
+6, 10, 16, true, Custom Cooling, NVIDIA GTX 1080, Intel i3, ASUS Prime, 4, 256, 450
+12, 20, 32, true, Immersion Cooling, AMD Radeon RX 6800, AMD Ryzen 5, Gigabyte Ultra Durable, 12, 750, 600
+1, 4, 6, false, Air Cooling, NVIDIA RTX 4060, Intel i9, ASUS TUF Gaming, 32, 2000, 800
+8, 10, 20, true, Water Cooling, NVIDIA GTX 1050, Intel Pentium, MSI Pro, 4, 128, 400
+4, 6, 14, false, Active Cooling, AMD Radeon RX 7600, AMD Ryzen 7, ASUS Crosshair, 16, 1200, 700
