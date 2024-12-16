@@ -10,7 +10,7 @@ import java.awt.Color;
  *
  * @author tb173
  */
-public class TudorUI extends javax.swing.JFrame {
+public class TudorGUI extends javax.swing.JFrame {
     
     Calculator[] vectorCalculatoare = TestTudor.getCalculator();
     Desktop[] vectorDesktop = TestTudor.getDesktop();
@@ -19,7 +19,7 @@ public class TudorUI extends javax.swing.JFrame {
     /**
      * Creates new form TudorUI
      */
-    public TudorUI() {
+    public TudorGUI() {
         initComponents();
     }
     /**
@@ -56,7 +56,6 @@ public class TudorUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        setPreferredSize(new java.awt.Dimension(950, 900));
         setResizable(false);
 
         afisareVectorCalculatoare.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
@@ -404,20 +403,21 @@ public class TudorUI extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TudorUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TudorGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TudorUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TudorGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TudorUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TudorGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TudorUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TudorGUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TudorUI().setVisible(true);
+                new TudorGUI().setVisible(true);
             }
         });
     }

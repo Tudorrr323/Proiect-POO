@@ -8,7 +8,7 @@ package com.mycompany.proiectpoo;
  *
  * @author tb173
  */
-public class TestTudor extends TudorUI{
+public class TestTudor extends TudorGUI{
     
     //Vectorii celor 3 clase
     public static Calculator[] vectorCalculatoare = {
