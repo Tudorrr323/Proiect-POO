@@ -24,7 +24,6 @@ public class TudorGUI2 extends javax.swing.JFrame {
     static FileReader fr = null;
     static BufferedReader br = null;
     static String line = "", cuvant = "";
-    static StringTokenizer st;
     static int contor = 0;
 
     public TudorGUI2() {

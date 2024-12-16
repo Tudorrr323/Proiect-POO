@@ -8,7 +8,7 @@ package com.mycompany.proiectpoo;
  *
  * @author va195
  */
-public class TestValentina extends ValentinaUI{
+public class TestValentina extends ValentinaGUI{
     
     //Instantele celor 3 vectori declarati global
     public static Calculator[] vectorCalculatoare = {

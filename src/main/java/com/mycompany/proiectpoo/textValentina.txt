@@ -1,0 +1,32 @@
+NVIDIA RTX 3060, Intel Core i5-12400, ASUS Prime B660, 16, 512, 600
+AMD Radeon RX 6700 XT, AMD Ryzen 5 5600X, MSI B450 TOMAHAWK, 32, 1024, 650
+NVIDIA GTX 1660 Super, Intel Core i3-12100F, Gigabyte B660M DS3H, 8, 256, 500
+AMD Radeon RX 570, AMD Ryzen 3 3300X, ASRock A520M-HDV, 16, 512, 450
+NVIDIA RTX 4070, Intel Core i7-13700K, ASUS ROG Strix Z790-E, 64, 2048, 850
+AMD Radeon RX 7900 XT, AMD Ryzen 9 7950X, MSI MEG X670E, 64, 2048, 1000
+NVIDIA RTX 3050, Intel Core i5-11400, Gigabyte Z590 UD AC, 16, 1024, 550
+AMD Radeon RX 6600, AMD Ryzen 7 5800X, ASUS TUF Gaming B550, 32, 512, 750
+NVIDIA GTX 1650, Intel Core i3-10100, MSI H410M PRO, 8, 256, 400
+NVIDIA RTX 3090, Intel Core i9-12900K, ASUS ROG Maximus Z690, 128, 4096, 1200
+
+Logitech MX Master 3, 15.6, 2.5, true, 8, NVIDIA RTX 3060, Intel Core i5-12400, ASUS Prime B660, 16, 512, 600
+Razer DeathAdder V2, 17.3, 2.8, true, 10, AMD Radeon RX 6700 XT, AMD Ryzen 5 5600X, MSI B450 TOMAHAWK, 32, 1024, 650
+Microsoft Surface Mouse, 14.0, 1.8, false, 6, NVIDIA GTX 1660 Super, Intel Core i3-12100F, Gigabyte B660M DS3H, 8, 256, 500
+HP Wireless Mouse X3000, 13.3, 1.5, false, 5, AMD Radeon RX 570, AMD Ryzen 3 3300X, ASRock A520M-HDV, 16, 512, 450
+Logitech G Pro Wireless, 15.6, 2.0, true, 12, NVIDIA RTX 4070, Intel Core i7-13700K, ASUS ROG Strix Z790-E, 64, 2048, 850
+SteelSeries Rival 650, 17.3, 3.0, true, 14, AMD Radeon RX 7900 XT, AMD Ryzen 9 7950X, MSI MEG X670E, 64, 2048, 1000
+Dell Wireless Mouse WM615, 15.0, 2.2, true, 9, NVIDIA RTX 3050, Intel Core i5-11400, Gigabyte Z590 UD AC, 16, 1024, 550
+Corsair Dark Core RGB, 16.0, 2.6, true, 11, AMD Radeon RX 6600, AMD Ryzen 7 5800X, ASUS TUF Gaming B550, 32, 512, 750
+Lenovo Yoga Mouse, 13.0, 1.3, false, 4, NVIDIA GTX 1650, Intel Core i3-10100, MSI H410M PRO, 8, 256, 400
+Razer Basilisk Ultimate, 18.4, 3.5, true, 16, NVIDIA RTX 3090, Intel Core i9-12900K, ASUS ROG Maximus Z690, 128, 4096, 1200
+
+true, true, true, true, Logitech MX Master 3, 15.6, 2.5, true, 8, NVIDIA RTX 3060, Intel Core i5-12400, ASUS Prime B660, 16, 512, 600
+false, true, true, false, Razer DeathAdder V2, 17.3, 2.8, true, 10, AMD Radeon RX 6700 XT, AMD Ryzen 5 5600X, MSI B450 TOMAHAWK, 32, 1024, 650
+true, false, false, true, Microsoft Surface Mouse, 14.0, 1.8, false, 6, NVIDIA GTX 1660 Super, Intel Core i3-12100F, Gigabyte B660M DS3H, 8, 256, 500
+false, false, true, false, HP Wireless Mouse X3000, 13.3, 1.5, false, 5, AMD Radeon RX 570, AMD Ryzen 3 3300X, ASRock A520M-HDV, 16, 512, 450
+true, true, false, true, Logitech G Pro Wireless, 15.6, 2.0, true, 12, NVIDIA RTX 4070, Intel Core i7-13700K, ASUS ROG Strix Z790-E, 64, 2048, 850
+false, true, true, true, SteelSeries Rival 650, 17.3, 3.0, true, 14, AMD Radeon RX 7900 XT, AMD Ryzen 9 7950X, MSI MEG X670E, 64, 2048, 1000
+true, false, true, false, Dell Wireless Mouse WM615, 15.0, 2.2, true, 9, NVIDIA RTX 3050, Intel Core i5-11400, Gigabyte Z590 UD AC, 16, 1024, 550
+false, true, false, true, Corsair Dark Core RGB, 16.0, 2.6, true, 11, AMD Radeon RX 6600, AMD Ryzen 7 5800X, ASUS TUF Gaming B550, 32, 512, 750
+true, true, true, false, Lenovo Yoga Mouse, 13.0, 1.3, false, 4, NVIDIA GTX 1650, Intel Core i3-10100, MSI H410M PRO, 8, 256, 400
+false, false, false, true, Razer Basilisk Ultimate, 18.4, 3.5, true, 16, NVIDIA RTX 3090, Intel Core i9-12900K, ASUS ROG Maximus Z690, 128, 4096, 1200
