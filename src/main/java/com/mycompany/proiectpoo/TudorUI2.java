@@ -26,7 +26,7 @@ public class TudorUI2 extends javax.swing.JFrame {
     static String line = "", cuvant = "";
     static StringTokenizer st;
     static int contor = 0;
-    
+
     public TudorUI2() {
         initComponents();
     }
@@ -111,6 +111,64 @@ public class TudorUI2 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    public static void afisareVectori() {
+        try {
+            fr = new FileReader("src\\main\\java\\com\\mycompany\\proiectpoo\\textTudor.txt");
+            br = new BufferedReader(fr);
+            line = br.readLine();
+            while (line != null) {
+                if (line.isEmpty()) {
+                    line = br.readLine();
+                    contor++;
+                }
+
+                String[] parti = line.split(",");
+
+                switch (contor) {
+                    case 0 ->
+                        textCalculatoare.append("Placa Video: " + parti[0] + ""
+                                + "\nProcesor: " + parti[1]
+                                + "\nPlaca de baza: " + parti[2]
+                                + "\nMemorie RAM: " + parti[3] + " GB"
+                                + "\nStocare" + parti[4] + " GB"
+                                + "\nAlimentare: " + parti[5] + " W\n\n");
+                    case 1 ->
+                        textDesktopuri.append("Nume Tastatura: " + parti[0]
+                                + "\nNume Mouse: " + parti[1]
+                                + "\nNume Monitor: " + parti[2]
+                                + "\nDiagonala Monitor: " + parti[3] + " inch"
+                                + "\nPlaca Video: " + parti[4] + ""
+                                + "\nProcesor: " + parti[5]
+                                + "\nPlaca de baza: " + parti[6]
+                                + "\nMemorie RAM: " + parti[7] + " GB"
+                                + "\nStocare" + parti[8] + " GB"
+                                + "\nAlimentare: " + parti[9] + " W\n\n");
+                    case 2 ->
+                        textServere.append("Numar Procesoare: " + parti[0]
+                                + "\nNumar Porturi USB: " + parti[1]
+                                + "\nNumar Discuri Stocare: " + parti[2]
+                                + "\nAre Retea Gigabit: " + parti[3]
+                                + "\nSistem de Racire: " + parti[4]
+                                + "\nPlaca Video: " + parti[5] + ""
+                                + "\nProcesor: " + parti[6]
+                                + "\nPlaca de baza: " + parti[7]
+                                + "\nMemorie RAM: " + parti[8] + " GB"
+                                + "\nStocare" + parti[9] + " GB"
+                                + "\nAlimentare: " + parti[10] + " W\n\n");
+                    default -> {
+                    }
+                }
+                line = br.readLine();
+            }
+            fr.close();
+            br.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Fisierul nu a fost gasit: " + fr);
+        } catch (IOException ex) {
+            Logger.getLogger(TudorUI2.class.getName()).log(Level.SEVERE, null, ex);
+        }//Daca fisierul textTudor.txt nu exista, exceptia va fi prinsa, iar detaliile vor fi logate fara a opri programul.
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -142,60 +200,7 @@ public class TudorUI2 extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TudorUI2().setVisible(true);
-                
-                try{
-                    fr = new FileReader("src\\main\\java\\com\\mycompany\\proiectpoo\\textTudor.txt");
-                    br = new BufferedReader(fr);
-                    line = br.readLine();
-                    
-                    while(line != null){
-                        if(line.isEmpty()){
-                            line = br.readLine();
-                            contor++;
-                        }
-                        
-                        String[] parti = line.split(",");
-                        
-                        switch (contor) {
-                            case 0 -> textCalculatoare.append("Placa Video: " + parti[0] + "" +
-                                        "\nProcesor: " + parti[1] +
-                                        "\nPlaca de baza: " + parti[2] +
-                                        "\nMemorie RAM: " + parti[3] + " GB" +
-                                        "\nStocare" + parti[4] + " GB" +
-                                        "\nAlimentare: " + parti[5] + " W\n\n");
-                            case 1 -> textDesktopuri.append("Nume Tastatura: " + parti[0] +
-                                        "\nNume Mouse: " + parti[1] +
-                                        "\nNume Monitor: " + parti[2] +
-                                        "\nDiagonala Monitor: " + parti[3] + " inch" +
-                                        "\nPlaca Video: " + parti[4] + "" +
-                                        "\nProcesor: " + parti[5] +
-                                        "\nPlaca de baza: " + parti[6] +
-                                        "\nMemorie RAM: " + parti[7] + " GB" +
-                                        "\nStocare" + parti[8] + " GB" +
-                                        "\nAlimentare: " + parti[9] + " W\n\n");
-                            case 2 -> textServere.append("Numar Procesoare: " + parti[0] +
-                                        "\nNumar Porturi USB: " + parti[1] +
-                                        "\nNumar Discuri Stocare: " + parti[2] +
-                                        "\nAre Retea Gigabit: " + parti[3] +
-                                        "\nSistem de Racire: " + parti[4] +
-                                        "\nPlaca Video: " + parti[5] + "" +
-                                        "\nProcesor: " + parti[6] +
-                                        "\nPlaca de baza: " + parti[7] +
-                                        "\nMemorie RAM: " + parti[8] + " GB" +
-                                        "\nStocare" + parti[9]+ " GB" +
-                                        "\nAlimentare: " + parti[10] + " W\n\n");
-                            default -> {
-                            }
-                        }
-                        line = br.readLine();
-                    }
-                    fr.close();
-                    br.close();
-                } catch(FileNotFoundException e) {
-                    System.out.println("Fisierul nu a fost gasit: " + fr);
-                } catch (IOException ex) {
-                    Logger.getLogger(TudorUI2.class.getName()).log(Level.SEVERE, null, ex);
-                }//Daca fisierul textTudor.txt nu exista, exceptia va fi prinsa, iar detaliile vor fi logate fara a opri programul.
+                afisareVectori();
             }
         });
     }
